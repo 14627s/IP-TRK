@@ -1,7 +1,7 @@
 Welcome to the IP-TRK-Tool ReadMe!
 
 
-# IP TRK
+# IP TRK V 1.0
 
 IP TRK is a simple tool to retrieve information about an IP address and track it. It offers options to track your own IP, a specific IP address, and manage logs.
 
