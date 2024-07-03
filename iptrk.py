@@ -72,7 +72,7 @@ while True:
      result=(f"\n\n\nCountry: {ipdata['country']} \nCountry Code: {ipdata['countryCode']} \nRegion: {ipdata['region']} \nRegion Name: {ipdata['regionName']} \nCity: {ipdata['city']} \nZIP Code: {ipdata['zip']} \nLAT & LON: {ipdata['lat']}{ipdata['lon']}  \nTime Zone: {ipdata['timezone']} \nISP: {ipdata['isp']} \nOrganisation: {ipdata['org']} \nAS: {ipdata['as']} \nquery: {ipdata['query']}")
      print(result)
      with open('logs.txt', 'a') as logs:
-       logs.write(f'{'-' * 30}\nIP CHECKED ---- > {iptocheck}\nTIME : [{datetime.datetime.now()}]\n{result}\n{'-' * 30}\n\n')
+       logs.write(f"{'-' * 30}\nIP CHECKED ---- > {iptocheck}\nTIME : [{datetime.datetime.now()}]\n{result}\n{'-' * 30}\n\n")
     except Exception as e:
       print(f'{colors.RED}An error Occured : {e} ')
 
