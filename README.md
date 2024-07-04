@@ -1,4 +1,4 @@
-Welcome to the IP-TRK-Tool ReadMe!
+
 
 
 # IP TRK V 1.0
@@ -35,3 +35,6 @@ IP TRK is a simple tool to retrieve information about an IP address and track it
 
 
 
+## Ethical Use Statement
+
+This tool retrieves basic information about IP addresses for purposes such as network diagnostics and geolocation services. It does not gather sensitive personal data or perform any invasive actions. Users are expected to use the tool responsibly, respect privacy rights, and comply with all applicable laws and regulations.
