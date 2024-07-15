@@ -57,10 +57,10 @@ class colors:
     OCEAN_BLUE = '\033[38;5;21m'  # Ocean Blue
     GOLD = '\033[38;5;220m'    # Gold
 def clear():
-    try:
-     os.system('cls')
-    except:
-      os.system('clear')
+    if os.name=='nt':
+        os.system('cls')
+    else:
+        os.system('clear')
 clear()
 while True:
  clear()
